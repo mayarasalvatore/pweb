@@ -1,0 +1,108 @@
+body {
+    background-color: #f2f2f7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulo {
+    color: #0866ff;
+    font-size: 70px;
+}
+
+.div-direita {
+    background-color: red;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .div-esquerda {
+        background-color: blue;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+    }
+    
+    .div-esquerda div {
+        background-color: green;
+        width: 400px;
+        heigth:400px;
+    }
+        
+
+.div-esquerda {
+    background-color: blue;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.div-esquerda div {
+    background-color: green;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.texto {
+    font-size: 20px;
+}
+.card-login {
+    background-color: #ffffff;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-text{
+    width: 300px;
+    height: 40px;
+    border: 2px solid gainsboro;
+    
+}
+.input-text {
+    height: 40px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.input-text::placeholder {
+    color: gray;
+}
+
+.input-text:focus {
+    border-color: #0866ff;
+    outline: none;
+}
+
+.input-button {
+    height: 40px;
+    background-color: #0866ff;
+    padding: 0px 135px 0px 135px;
+    border: nome;
+    border-radius: 5px
+    color: white
+    font-size: 20px;
+    font-weight: bold;
+}
+
