@@ -1,3 +1,4 @@
+
 body {
     background-color: #f2f2f7;
     display: flex;
@@ -100,9 +101,8 @@ form {
     background-color: #0866ff;
     padding: 0px 135px 0px 135px;
     border: nome;
-    border-radius: 5px
-    color: white
+    border-radius: 5px;
+    color: white;
     font-size: 20px;
     font-weight: bold;
 }
-
